@@ -36,9 +36,9 @@ September
 
 # Conclusion
 
-● XGBoost provided us the best results giving us a recall of 85 
-percent(meaning out of 100 defaulters 85 will be correctlycaught 
-by XGBoost)
+● XGBoost model has the highest recall, if the business cares recall the most, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, I would recommend Random Forest.
+
+In general, all models have comparable accuracy. Nevertheless, because the classes are imbalanced (the proportion of non-default credit cards is higher than default) this metric is misleading.
 
 ● Random Forest also had good score as well but leads to overfit 
 the data.
